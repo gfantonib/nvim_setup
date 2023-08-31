@@ -1,5 +1,5 @@
 # tmux plugin manager tpm
-this repository will help you to manage your tmux plugins
+    this repository will help you to manage your tmux plugins
     ``` sh
     $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
     ```
@@ -18,7 +18,7 @@ you sholud install this plugin
 
 `.tmux.conf` | set -g @plugin 'tmux-plugins/tmux-yank'
 
-and then run 
+    and then run 
     ``` sh
     $ sudo yum install xclip
     ```
@@ -27,7 +27,8 @@ in order to make tmux clipboard works
 https://github.com/tmux-plugins/tmux-yank
 
 # tmux gneral rule to reload configs
-Inside tmux, run 
+    
+    inside tmux, run 
     ``` sh
     $ tmux source-file ~/.tmux.conf
     ```
