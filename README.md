@@ -1,8 +1,8 @@
 # tmux plugin manager tpm
-    this repository will help you to manage your tmux plugins
-    ``` sh
+this repository will help you to manage your tmux plugins
+``` sh
     $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-    ```
+```
 
 # tmux-vim integration
 this tmux plugin should be installed in your `.tmux.conf` and in your 'plugins-setup.lua'
