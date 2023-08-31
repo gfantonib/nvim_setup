@@ -32,6 +32,8 @@ return packer.startup(function(use)
   use("wbthomason/packer.nvim")
 
   use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
+  
+  use ('Mofiqul/dracula.nvim') -- dracula theme nvim
 
    if packer_bootstrap then
     require("packer").sync()
