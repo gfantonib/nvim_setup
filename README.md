@@ -18,20 +18,20 @@ you sholud install this plugin
 
 `.tmux.conf` | set -g @plugin 'tmux-plugins/tmux-yank'
 
-    and then run 
-    ``` sh
+and then run 
+``` sh
     $ sudo yum install xclip
-    ```
+```
 in order to make tmux clipboard works
 
 https://github.com/tmux-plugins/tmux-yank
 
 # tmux gneral rule to reload configs
     
-    inside tmux, run 
-    ``` sh
+inside tmux, run 
+``` sh
     $ tmux source-file ~/.tmux.conf
-    ```
+```
 in the terminal to reload the conf file and press "ctrl + b + shift + I" to install the plugin
 
 # to make tmux look like dracula
