@@ -1,5 +1,5 @@
 # tmux plugin manager tpm
-this repository will help you to manage your tmux plugins
+this repository will help you to manage your tmux plugins.
 ``` sh
     $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
