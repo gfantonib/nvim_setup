@@ -21,4 +21,4 @@
 	alias paco=/home/gfantoni/francinette/tester.sh
 
 	# github token
-	alias token="echo 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"
+	alias token="echo "
