@@ -1,9 +1,24 @@
-alias run="cc -Wall -Wextra -Werror"
+	# Commands to run in interactive sessions can go here
+	fish_config theme choose "Dracula Official"
 
-alias home="cd ~/"
+	# move to home directory
+	alias home="cd ~/"
 
-alias francinette=/nfs/homes/gfantoni/francinette/tester.sh
+	# move to current project directory
+	alias project="cd /home/gfantoni/Desktop/programing/42/42_ft_printf"
 
-alias paco=/nfs/homes/gfantoni/francinette/tester.sh
+	# copile with flags
+	alias run="cc -Wall -Wextra -Werror"
 
-alias nvim='~/nvim.appimage'
+	# nvim
+	alias nvim='~/nvim.appimage'
+
+	#supergit
+	alias supergit="git add . && git commit -m "Melvin" && git push"
+	
+	# francinette
+	alias francinette=/home/gfantoni/francinette/tester.sh
+	alias paco=/home/gfantoni/francinette/tester.sh
+
+	# github token
+	alias token="echo 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"
