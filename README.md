@@ -3,7 +3,7 @@
     $ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-# To enable tmux clipboard
+# to enable tmux clipboard
 
 Debian & Ubuntu
 
@@ -22,7 +22,7 @@ https://github.com/tmux-plugins/tmux-yank
 # tmux gneral rule to reload configs
     
 ``` sh
-    $ tmux source-file ~/.tmux.conf
+$ tmux source-file ~/.tmux.conf
 ```
 in the terminal, to reload the tmux environment, press "ctrl + b + shift + I" to install the plugin
 
