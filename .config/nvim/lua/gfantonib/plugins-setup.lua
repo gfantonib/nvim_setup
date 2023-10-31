@@ -33,7 +33,9 @@ return packer.startup(function(use)
 
   use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
 
-  use ('Mofiqul/dracula.nvim') -- dracula theme nvim
+--themes
+  --use ('Mofiqul/dracula.nvim')
+  use('projekt0n/github-nvim-theme')
 
   -- lsp plugins
   use('williamboman/mason.nvim')

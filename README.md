@@ -26,11 +26,14 @@ $ tmux source-file ~/.tmux.conf
 ```
 in the terminal, to reload the tmux environment, press "ctrl + b + shift + I" to install the plugin
 
-# to make tmux look like dracula
-https://draculatheme.com/tmux
 
-# to make fish look like dracula
-https://draculatheme.com/fish
+# to make fish look soft as smashed potatoes
+``` sh
+$ curl -L https://get.oh-my.fish | fish
+```
+``` sh
+$ omf install nai
+```
 
 # to enable cmp autocompletion
 https://github.com/hrsh7th/nvim-cmp
