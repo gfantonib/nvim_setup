@@ -32,10 +32,17 @@ return packer.startup(function(use)
   use("wbthomason/packer.nvim")
 
   use("christoomey/vim-tmux-navigator") -- tmux & split window navigation
-  
+
   use ('Mofiqul/dracula.nvim') -- dracula theme nvim
 
-  use('hrsh7th/nvim-cmp') -- cmp plugins
+  -- lsp plugins
+  use('williamboman/mason.nvim')
+  use('williamboman/mason-lspconfig.nvim')
+  use('neovim/nvim-lspconfig')
+
+-- cmp plugins
+  use('hrsh7th/nvim-cmp') 
+  use('hrsh7th/cmp-nvim-lsp')
   use('hrsh7th/cmp-buffer')
   use('hrsh7th/cmp-path')
   use('hrsh7th/cmp-cmdline')
