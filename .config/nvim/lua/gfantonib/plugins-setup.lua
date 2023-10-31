@@ -35,6 +35,12 @@ return packer.startup(function(use)
   
   use ('Mofiqul/dracula.nvim') -- dracula theme nvim
 
+  use('hrsh7th/nvim-cmp') -- cmp plugins
+  use('hrsh7th/cmp-buffer')
+  use('hrsh7th/cmp-path')
+  use('hrsh7th/cmp-cmdline')
+  use('L3MON4D3/LuaSnip')
+
    if packer_bootstrap then
     require("packer").sync()
   end

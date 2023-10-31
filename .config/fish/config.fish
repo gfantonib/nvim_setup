@@ -5,7 +5,7 @@
 	alias home="cd ~/"
 
 	# move to current project directory
-	alias project="cd /home/gfantoni/Desktop/programing/42/42_ft_printf"
+	alias project="cd /home/gfantoni/Desktop/programing/42/42_fractol"
 
 	# copile with flags
 	alias run="cc -Wall -Wextra -Werror"
@@ -22,3 +22,6 @@
 
 	# github token
 	alias token="echo "
+
+	# python
+	alias p="python"

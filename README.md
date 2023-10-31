@@ -32,6 +32,9 @@ https://draculatheme.com/tmux
 # to make fish look like dracula
 https://draculatheme.com/fish
 
+# to enable cmp autocompletion
+https://github.com/hrsh7th/nvim-cmp
+
 # main reference
 https://www.youtube.com/watch?v=vdn_pKJUda8
 
