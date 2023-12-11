@@ -25,3 +25,22 @@
 
 	# python
 	alias p="python"
+
+	# trash command
+	function trash_command
+	    if test -z $argv
+	        echo "Usage: trash <file or directory>"
+	        return 1
+	    end
+	
+	    set item $argv[1]
+	
+	    if test -e $item
+	        mv $item ~/trash/
+	        echo "Moved $item to ~/trash/"
+	    else
+	        echo "$item does not exist."
+	    end
+	end
+	alias trash="trash_command"
+
